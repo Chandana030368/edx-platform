@@ -354,7 +354,7 @@
                     this.video.addEventListener('playing', this.onPlaying, false);
                     this.video.addEventListener('pause', this.onPause, false);
                     this.video.addEventListener('ended', this.onEnded, false);
-                    console.log("Hi")
+                    console.log("Hello")
 
                     if (/iP(hone|od)/i.test(isTouch[0])) {
                         this.videoEl.prop('controls', true);
