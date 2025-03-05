@@ -143,7 +143,7 @@
                     if (
                         typeof value === 'number' &&
                 value <= this.video.duration &&
-                value >= 0 && this.video.currentTime > value
+                value >= 0 
                     ) {
                         this.video.currentTime = value;
                     }
